@@ -1,0 +1,33 @@
+# Copy this to the terminal to build:
+
+pyinstaller \
+  --name prompt-launcher-chat \
+  --windowed \
+  --onedir \
+  --add-data "src/icons:icons" \
+  --distpath dist \
+  --workpath build \
+  src/launcher_chat.py
+
+  # for dev:
+
+  pyinstaller \
+  --name prompt-launcher-dev \
+  --windowed \
+  --onedir \
+  --add-data "src/icons:icons" \
+  --distpath dist \
+  --workpath build \
+  src/launcher_dev.py
+
+  # for music:
+
+  pyinstaller \
+  --name prompt-launcher-music \
+  --windowed \
+  --onedir \
+  --add-data "src/icons:icons" \
+  --distpath dist \
+  --workpath build \
+  src/launcher_music.py
+
