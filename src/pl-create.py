@@ -13,7 +13,8 @@ ICON_NAMES = {
         'l': 'Logic',
         'p': 'ProTools',
         's': 'Sibelius',
-        'o': 'Omnibus'
+        'o': 'Omnibus',
+        'd': 'DaVinciResolve'
 }
 
 # Commands to run for each key
@@ -24,6 +25,7 @@ LAUNCH_CMDS = {
         'p': ['open', '-a', 'Pro Tools'],
         's': ['open', '-a', 'Sibelius'],
         'o': ['open', '-a', 'Omnibus'],
+        'd': ['open', '-a', 'DaVinci Resolve'],
 }
 
 ICON_SIZE = (84, 84)
@@ -31,7 +33,7 @@ ICONS_DIR = Path(__file__).parent / 'icons'
 MENU_BAR_HEIGHT = 42
 FONT_FAMILY = 'Jetbrains Mono'
 FONT_SIZE = 15
-UI_HEIGHT_REDUCTION = 10
+UI_HEIGHT_REDUCTION = 100
 
 # --- Main Window ---
 
