@@ -9,7 +9,7 @@ from PySide6 import QtCore, QtGui, QtWidgets
 # -- Configuration
 
 ICON_NAMES = {
-        't': 'kitty',
+        'k': 'kitty',
         'c': 'CLion',
         'p': 'PyCharm',
         'w': 'WebStorm',
@@ -18,7 +18,7 @@ ICON_NAMES = {
 
 # Commands to run for each key
 LAUNCH_CMDS = {
-        't': ['open', '-a', 'kitty'],
+        'k': ['open', '-a', 'kitty'],
         'c': ['open', '-a', 'CLion'],
         'p': ['open', '-a', 'PyCharm'],
         'w': ['open', '-a', 'WebStorm'],

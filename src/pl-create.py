@@ -8,23 +8,24 @@ from PySide6 import QtCore, QtGui, QtWidgets
 # -- Configuration
 
 ICON_NAMES = {
+        'f': 'Finder',
         'c': 'Cubase',
         'a': 'Ableton',
         'l': 'Logic',
         'p': 'ProTools',
         's': 'Sibelius',
-        'o': 'Omnibus',
-        'd': 'DaVinciResolve'
+        'd': 'DaVinciResolve',
+
 }
 
 # Commands to run for each key
 LAUNCH_CMDS = {
+        'f': ['open', '-a', 'Finder'],
         'c': ['open', '-a', 'Cubase 14'],
         'a': ['open', '-a', 'Ableton Live 12 Suite'],
         'l': ['open', '-a', 'Logic Pro'],
         'p': ['open', '-a', 'Pro Tools'],
         's': ['open', '-a', 'Sibelius'],
-        'o': ['open', '-a', 'Omnibus'],
         'd': ['open', '-a', 'DaVinci Resolve'],
 }
 
